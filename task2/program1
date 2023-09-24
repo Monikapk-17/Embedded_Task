@@ -6,8 +6,8 @@ int main() {
     printf("Enter the Elements :\t");
     scanf("%d",&n);
     int a[n];
-    printf("Enter the numbers:\n");
     for (i=0;i<n;i++){
+        printf("Enter the number %d :",i+1);
         scanf("%d",&a[i]);
     }
     int evensum=0;
